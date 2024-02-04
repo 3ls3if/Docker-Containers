@@ -7,3 +7,5 @@ RUN apt-get -y install python3-pip
 RUN cd /opt && git clone https://github.com/thehackingsage/bughunter.git && git clone https://github.com/lanmaster53/recon-ng.git
 RUN apt-get -y install python2 
 RUN apt-get -y install net-tools
+RUN cd /opt/recon-ng && pip3 install -r REQUIREMENTS
+RUN cd /ptf && pip3 install -r requirements.txt 
