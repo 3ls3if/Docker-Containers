@@ -1,5 +1,5 @@
 # Pentest-Ubuntu 
-This docker image is built to quickly start pentesting without having to set up virtual machines. The Dockerfile can be modified and it has preinstalled the "Pentester Framework", "bughunter", and "recon-ng" Tools.
+This docker image is built to quickly start pentesting without having to set up virtual machines. The Dockerfile can be modified and it comes with pre-installed "Pentester Framework", "bughunter", and "recon-ng" Tools.
 
 ## Steps To Build the Docker Image from the Dockerfile
 ```sudo docker build -t pentest-ubuntu .```
